@@ -1,4 +1,4 @@
-# 🖼️ PixelShrink - Smart Image Compressor
+ # 🖼️ PixelShrink - Smart Image Compressor
 
 ![PixelShrink Banner](https://img.shields.io/badge/Project-Image%20Compressor-blue)
 ![HTML](https://img.shields.io/badge/HTML5-orange)

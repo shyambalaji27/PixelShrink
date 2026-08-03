@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>PixelForge - Image Compressor</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>✨ PixelForge</h1>
+
+<p class="tag">
+Smart Image Compressor - Fast & Secure
+</p>
+
+
+
+<div class="upload-card">
+
+
+<input type="file" id="upload" accept="image/*">
+
+
+<label for="upload">
+
+📁 Upload Your Image
+
+</label>
+
+
+</div>
+
+
+
+<div class="images">
+
+
+<div class="box">
+
+<h2>Original Image</h2>
+
+<img id="original">
+
+
+<p id="originalSize">
+Size : -
+</p>
+
+
+</div>
+
+
+
+<div class="box">
+
+
+<h2>Compressed Image</h2>
+
+
+<img id="compressed">
+
+
+<p id="compressedSize">
+Size : -
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="control">
+
+
+<label>
+
+Compression Quality :
+<span id="qualityText">70</span>%
+
+</label>
+
+
+<input 
+type="range"
+id="quality"
+min="10"
+max="100"
+value="70">
+
+
+</div>
+
+
+
+<button id="compress">
+
+🚀 Compress Image
+
+</button>
+
+
+
+<button id="download">
+
+⬇ Download
+
+</button>
+
+
+
+<h2 id="result"></h2>
+
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
